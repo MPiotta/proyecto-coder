@@ -1,0 +1,252 @@
+/* fuentes
+font-family: "Acme", sans-serif;
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+html{
+    font-size: 16px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #780000;
+    color: black;
+    font-family: "Acme", sans-serif;
+    width: 100%;
+    align-items: center;
+    }
+header h1{
+    font-size: 70px;
+    height: 100px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navBar{
+    list-style: none; 
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.navBar li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+main{
+    background-color: #FDF0D5;
+    color: black;
+    font-family: "Acme", sans-serif;
+    width: 100%;
+    height: 100%;
+}
+.strange{
+    height: 600px;
+    width: 300px;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.batman{
+    height: 600px;
+    width: 300px;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.infinito{
+    height: 600px;
+    width: 300px;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.civil{
+    height: 600px;
+    width: 300px;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.supermanoz{
+    height: 600px;
+    width: 300px;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.aquaman{
+    height: 600px;
+    width: 300px;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.secret{
+    height: 600px;
+    width: 300px;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.broma{
+    height: 600px;
+    width: 300px;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.green{
+    height: 600px;
+    width: 300px;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.superman2{
+    height: 600px;
+    width: 300px;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.super{
+    height: 600px;
+    width: 300px;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.dragon1{
+    height: 600px;
+    width: 300px;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.dragon0{
+    height: 600px;
+    width: 300px;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.flash{
+    height: 600px;
+    width: 300px;
+    justify-content: space-between;
+    padding: 1rem;
+}
+footer{
+    background-color: #780000;
+    color: black;
+    font-family: "Acme", sans-serif;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+section h2{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+p{
+    font-size: 1.75rem;
+    margin: auto;
+    margin-top: 3.125rem;
+}
+li{
+    font-size: 1.75rem;
+    justify-content: flex-start;
+    margin: auto;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:80px;
+}
+.map-responsive iframe{
+    left: 900px;;
+    top:0;
+    height:100%;
+    width:50%;
+    position:absolute;
+}
+.box{
+    padding: 15;
+    border: 0;
+    border-radius: 1.5625rem;
+    border-bottom: 1.5625rem;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+}
+.container{
+    width: 25rem;
+    padding: 30px;
+    height: 100px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.grid{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+    gap: 18.75rem
+}
+
+.grid .img1{
+    height: 400px;
+    width: 300px;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.grid .img2{
+    height: 400px;
+    width: 300px;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.grid .img3{
+    height: 400px;
+    width: 300px;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.grid .img4{
+    height: 400px;
+    width: 300px;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.grid .img5{
+    height: 400px;
+    width: 300px;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.grid .img6{
+    height: 400px;
+    width: 300px;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.grid .img7{
+    height: 400px;
+    width: 300px;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.grid .img8{
+    height: 400px;
+    width: 300px;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+@media (max-width: 64rem){
+    header{
+        background-color: #e07878;
+    }
+    
+}
